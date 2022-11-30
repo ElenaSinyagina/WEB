@@ -1,0 +1,62 @@
+body {
+    background: rgb(255, 237, 214);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70;
+    font-style: normal;
+    color: rgb(177, 5, 5);
+    margin-bottom: -25px;
+    
+}
+.img1 {
+    width: 40%;
+    max-width: 400px;
+    max-height: 500px;
+    margin: 10px auto 20px;
+    display: block;
+    object-fit: cover;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35;
+    font-style: oblique;
+    color: rgb(197, 4, 4);
+    margin-bottom: -45px;
+}
+
+.textSt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.ingrBord{
+    font-size: 17;
+    width: 200px;	height: 100px; 
+    background: rgb(252, 190, 58); 
+    outline: 2px solid rgb(177, 5, 5); 
+    border: 3px solid rgb(230, 138, 18); 
+    border-radius: 10px;
+    margin: 10px auto 20px;
+    display: block; 
+}
+
+.instrStyle{
+    font-size: 17;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.img2{
+    width: 5%;
+    max-width: 45px;
+    max-height: 45px;
+    margin: 10px auto 20px;
+    display: block;
+    object-fit: cover;
+}
