@@ -1,21 +1,29 @@
 <!-- Создать страницу, которая спрашивает имя у пользователя и выводит
      его с помощью функции. -->
 
+
+<!DOCTYPE html>
+<html lang="en">
+
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Домашняя работа №3</title>
-        <link rel="stylesheet" href="styles.css"
-    </head>
-    <body>
-        <script>
-            let askName = prompt(`Здравствуйте! Как Вас зовут?`);
+<head>
+    <meta charset="utf-8">
+    <title>Домашняя работа №3</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <h1>
+        <strong><i><center>Добро пожаловать!</center></i></strong>
+    </h1>
+    <script>
+        let askName = prompt(`Здравствуйте! Как Вас зовут?`);
+        function showMessage() {
+            alert(`${askName}, рады Вас видеть!`);
+        }
 
-            function showMessage() {
-                alert(`${askName}, рады Вас видеть!`);
-            }
-
-            showMessage();
-        </script>
-    </body>
+        showMessage();
+        
+    </script>
+    
+</body>
 </html>
